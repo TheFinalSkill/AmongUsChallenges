@@ -3,6 +3,14 @@
       {
         "name": "Airship",
         "locations": [
+            {
+              "name" : "Electrical",
+              "tasks" : [
+                  "Calibrate Distributor",
+                  "Divert Power",
+                  "Reset Breakers"
+                ]
+            }
           ]
       },
       {
