@@ -3,30 +3,30 @@
     { "name": "Electrical",
       "tasks": [
         { "name": "Calibrate Distributor", "type": ["short", "long"], "stages": 1 }, 
-        { "name": "Divert Power", "type": ["short"], "stages": 2 },
+        { "name": "Divert Power", "type": ["short"], "stages": 2, "part": 1 },
         { "name": "Reset Breakers", "type": ["long"], "stages": 7 } ]
     },
     { "name": "Cockpit",
       "tasks": [
-        { "name": "Accept Diverted Power", "type": ["short"], "stages": 2 },
+        { "name": "Accept Diverted Power", "type": ["short"], "stages": 2, "part": 2 },
         { "name": "Stabilize Steering", "type": ["short"], "stages": 1 },
-        { "name": "Download Data", "type": ["long"], "stages": 2 } ]
+        { "name": "Download Data", "type": ["long"], "stages": 2, "part": 1 } ]
     },
     { "name": "Vault",
       "tasks": [
         { "name": "Polish Ruby", "type": ["short"], "stages": 1 },
-        { "name": "Download Data", "type": ["long"], "stages": 2 },
+        { "name": "Download Data", "type": ["long"], "stages": 2, "part": 1 },
         { "name": "Dress Mannequin", "type": ["short"], "stages": 1 } ]
     },
     { "name": "Brig",
-      "tasks": [ { "name": "Download Data", "type": ["long"], "stages": 2 } ]
+      "tasks": [ { "name": "Download Data", "type": ["long"], "stages": 2, "part": 1 } ]
     },
     { "name": "Security",
       "tasks": [ { "name": "Rewind Tapes", "type": ["long"], "stages": 1 } ]
     },
     { "name": "Medical",
       "tasks": [
-        { "name": "Download Data", "type": ["long"], "stages": 2 },
+        { "name": "Download Data", "type": ["long"], "stages": 2, "part": 1 },
         { "name": "Empty Garbage", "type": ["long"], "stages": 2 } ]
     },
     { "name": "Meeting Room",
@@ -37,26 +37,26 @@
     },
     { "name": "Gap Room",
       "tasks": [
-        { "name": "Accept Diverted Power", "type": ["short"], "stages": 2 },
-        { "name": "Download Data", "type": ["long"], "stages": 2 } ]
+        { "name": "Accept Diverted Power", "type": ["short"], "stages": 2, "part": 2 },
+        { "name": "Download Data", "type": ["long"], "stages": 2, "part": 1 } ]
     },
     { "name": "Engine Room",
       "tasks": [
         { "name": "Fuel Engines", "type": ["long"], "stages": 1 },
         { "name": "Fix Wiring", "type": ["common"], "stages": 3 },
-        { "name": "Accept Diverted Power", "type": ["short"], "stages": 2 } ]
+        { "name": "Accept Diverted Power", "type": ["short"], "stages": 2, "part": 2 } ]
     },
     { "name": "Records",
       "tasks": [
         { "name": "Sort Records", "type": ["short"], "stages": 4 },
-        { "name": "Download Data", "type": ["long"], "stages": 2 } ]
+        { "name": "Download Data", "type": ["long"], "stages": 2, "part": 1 } ]
     },
     { "name": "Main Hall",
       "tasks": [
         { "name": "Develop Photos", "type": ["long"], "stages": 2 },
         { "name": "Decontaminate", "type": ["short"], "stages": 1 },
         { "name": "Empty Garbage", "type": ["long"], "stages": 2 },
-        { "name": "Accept Diverted Power", "type": ["short"], "stages": 2 } ]
+        { "name": "Accept Diverted Power", "type": ["short"], "stages": 2, "part": 2 } ]
     },
     { "name": "Kitchen",
       "tasks": [
@@ -65,14 +65,14 @@
     },
     { "name": "Showers",
       "tasks": [
-        { "name": "Accept Diverted Power", "type": ["short"], "stages": 2 },
+        { "name": "Accept Diverted Power", "type": ["short"], "stages": 2, "part": 2 },
         { "name": "Fix Shower", "type": ["short"], "stages": 1 },
         { "name": "Fix Wiring", "type": ["common"], "stages": 3 },
         { "name": "Pick Up Towels", "type": ["short"], "stages": 8 } ]
     },
     { "name": "Viewing Deck",
       "tasks": [
-        { "name": "Download Data", "type": ["long"], "stages": 2 },
+        { "name": "Download Data", "type": ["long"], "stages": 2, "part": 1 },
         { "name": "Fix Wiring", "type": ["common"], "stages": 3 } ]
     },
     { "name": "Lounge",
@@ -84,24 +84,24 @@
       "tasks": [
         { "name": "Put Away Rifles", "type": ["short"], "stages": 1 },
         { "name": "Put Away Pistols", "type": ["short"], "stages": 1 },
-        { "name": "Accept Diverted Power", "type": ["short"], "stages": 2 },
-        { "name": "Download Data", "type": ["long"], "stages": 2 } ]
+        { "name": "Accept Diverted Power", "type": ["short"], "stages": 2, "part": 2 },
+        { "name": "Download Data", "type": ["long"], "stages": 2, "part": 1 } ]
     },
     { "name": "Cargo Bay",
       "tasks": [
         { "name": "Fix Wiring", "type": ["common"], "stages": 3 },
-        { "name": "Fuel Engines", "type": ["long"], "stages": 1 },
-        { "name": "Download Data", "type": ["long"], "stages": 2 },
+        { "name": "Fuel Engines", "type": ["long"], "stages": 1, "part": 1 },
+        { "name": "Download Data", "type": ["long"], "stages": 2, "part": 1 },
         { "name": "Unlock Safe", "type": ["long"], "stages": 1 } ]
     },
     { "name": "Ventilation",
       "tasks": [ { "name": "Start Fans", "type": ["long"], "stages": 2 } ]
     },
     { "name": "Communications",
-      "tasks": [ { "name": "Download Data", "type": ["long"], "stages": 2 } ]
+      "tasks": [ { "name": "Download Data", "type": ["long"], "stages": 2, "part": 1 } ]
     },
     { "name": "Outside",
-      "tasks": [ { "name": "Upload Data", "type": ["long"], "stages": 2 } ]
+      "tasks": [ { "name": "Upload Data", "type": ["long"], "stages": 2, "part": 2 } ]
     }
   ],
   "TheSkeld" : [
