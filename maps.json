@@ -4,7 +4,7 @@
       "tasks": [
         { "name": "Calibrate Distributor", "type": ["short", "long"] }, 
         { "name": "Divert Power", "type": ["short"], "stages": 2 },
-        { "name": "Reset Breakers", "type": ["long"], "stages": 7 }]
+        { "name": "Reset Breakers", "type": ["long"], "stages": 7 } ]
     },
     { "name": "Cockpit",
       "tasks": []
@@ -52,16 +52,19 @@
       "tasks": []
     },
     { "name": "Cargo Bay",
-      "tasks": []
+      "tasks": [ { "name": "Fix Wiring", "type": ["common"], "stages": 3 },
+               { "name": "Fuel Engines", "type": ["long"], "stages": 1 },
+               { "name": "Download Data", "type": ["long"], "stages": 2 },
+               { "name": "Unlock Safe", "type": ["long"], "stages": 1 } ]
     },
     { "name": "Ventilation",
-      "tasks": []
+      "tasks": [ { "name": "Start Fans", "type": ["long"], "stages": 2 } ]
     },
     { "name": "Communications",
-      "tasks": []
+      "tasks": [ { "name": "Download Data", "type": ["long"], "stages": 2 } ]
     },
     { "name": "Outside",
-      "tasks": []
+      "tasks": [ { "name": "Upload Data", "type": ["long"], "stages": 2 } ]
     }
   ]
 }
