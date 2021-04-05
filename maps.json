@@ -36,16 +36,27 @@
         { "name": "Fix Wiring", "type": ["common"], "stages": 3 }]
     },
     { "name": "Gap Room",
-      "tasks": []
+      "tasks": [
+        { "name": "Accept Diverted Power", "type": ["short"], "stages": 2 },
+        { "name": "Download Data", "type": ["long"], "stages": 2 } ]
     },
     { "name": "Engine Room",
-      "tasks": []
+      "tasks": [
+        { "name": "Fuel Engines", "type": ["long"], "stages": 1 },
+        { "name": "Fix Wiring", "type": ["common"], "stages": 3 },
+        { "name": "Accept Diverted Power", "type": ["short"], "stages": 2 } ]
     },
     { "name": "Records",
-      "tasks": []
+      "tasks": [
+        { "name": "Sort Records", "type": ["short"], "stages": 4 }
+        { "name": "Download Data", "type": ["long"], "stages": 2 } ]
     },
     { "name": "Main Hall",
-      "tasks": []
+      "tasks": [
+        { "name": "Develop Photos", "type": ["long"], "stages": 2 },
+        { "name": "Decontaminate", "type": ["short"], "stages": 1 }
+        { "name": "Empty Garbage", "type": ["long"], "stages": 2 },
+        { "name": "Accept Diverted Power", "type": ["short"], "stages": 2 } ]
     },
     { "name": "Kitchen",
       "tasks": []
