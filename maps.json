@@ -1,8 +1,19 @@
 {
   "Airship" : [
-        { "name": "location 1", "tasks": [ { "name": "Fix Wires", "type": "common" }, { "name": "Fix Wires2", "type": "short" } ] },
-        { "name": "location 2", "tasks": [] },
-        { "name": "location 3", "tasks": [] },
-        { "name": "location 4", "tasks": [] }
-      ]
+    { "name": "Electrical",
+      "tasks": [
+        { "name": "Calibrate Distributor", "type": ["short", "long"] }, 
+        { "name": "Divert Power", "type": ["short"], "stages": 2 },
+        { "name": "Reset Breakers", "type": ["long"], "stages": 7 }]
+    },
+    { "name": "location 2",
+      "tasks": []
+    },
+    { "name": "location 3",
+      "tasks": []
+    },
+    { "name": "location 4",
+      "tasks": []
+    }
+  ]
 }
