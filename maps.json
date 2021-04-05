@@ -103,5 +103,10 @@
     { "name": "Outside",
       "tasks": [ { "name": "Upload Data", "type": ["long"], "stages": 2 } ]
     }
+  ],
+  "TheSkeld" : [
+    { "name": "Cafeteria",
+      "tasks" : []
+    }
   ]
 }
