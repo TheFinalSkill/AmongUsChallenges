@@ -59,25 +59,40 @@
         { "name": "Accept Diverted Power", "type": ["short"], "stages": 2 } ]
     },
     { "name": "Kitchen",
-      "tasks": []
+      "tasks": [
+        { "name": "Empty Garbage", "type": ["long"], "stages": 2 },
+        { "name": "Make Burger", "type": ["short"], "stages": 1 } ]
     },
     { "name": "Showers",
-      "tasks": []
+      "tasks": [
+        { "name": "Accept Diverted Power", "type": ["short"], "stages": 2 },
+        { "name": "Fix Shower", "type": ["short"], "stages": 1 },
+        { "name": "Fix Wiring", "type": ["common"], "stages": 3 },
+        { "name": "Pick Up Towels", "type": ["short"], "stages": 8 } ]
     },
     { "name": "Viewing Deck",
-      "tasks": []
+      "tasks": [
+        { "name": "Download Data", "type": ["long"], "stages": 2 },
+        { "name": "Fix Wiring", "type": ["common"], "stages": 3 } ]
     },
     { "name": "Lounge",
-      "tasks": []
+      "tasks": [
+        { "name": "Clean Toilet", "type": ["short"], "stages": 1 },
+        { "name": "Fix Wiring", "type": ["common"], "stages": 3 } ]
     },
     { "name": "Armory",
-      "tasks": []
+      "tasks": [
+        { "name": "Put Away Rifles", "type": ["short"], "stages": 1 },
+        { "name": "Put Away Pistols", "type": ["short"], "stages": 1 },
+        { "name": "Accept Diverted Power", "type": ["short"], "stages": 2 },
+        { "name": "Download Data", "type": ["long"], "stages": 2 } ]
     },
     { "name": "Cargo Bay",
-      "tasks": [ { "name": "Fix Wiring", "type": ["common"], "stages": 3 },
-               { "name": "Fuel Engines", "type": ["long"], "stages": 1 },
-               { "name": "Download Data", "type": ["long"], "stages": 2 },
-               { "name": "Unlock Safe", "type": ["long"], "stages": 1 } ]
+      "tasks": [
+        { "name": "Fix Wiring", "type": ["common"], "stages": 3 },
+        { "name": "Fuel Engines", "type": ["long"], "stages": 1 },
+        { "name": "Download Data", "type": ["long"], "stages": 2 },
+        { "name": "Unlock Safe", "type": ["long"], "stages": 1 } ]
     },
     { "name": "Ventilation",
       "tasks": [ { "name": "Start Fans", "type": ["long"], "stages": 2 } ]
