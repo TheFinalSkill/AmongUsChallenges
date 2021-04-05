@@ -27,11 +27,11 @@
     { "name": "Medical",
       "tasks": [
         { "name": "Download Data", "type": ["long"], "stages": 2, "part": 1 },
-        { "name": "Empty Garbage", "type": ["long"], "stages": 2 } ]
+        { "name": "Empty Garbage", "type": ["long"], "stages": 2, "part": 1 } ]
     },
     { "name": "Meeting Room",
       "tasks": [
-        { "name": "Empty Garbage", "type": ["long"], "stages": 2 },
+        { "name": "Empty Garbage", "type": ["long"], "stages": 2, "part": 2 },
         { "name": "Enter Id Code", "type": ["common"], "stages": 1 },
         { "name": "Fix Wiring", "type": ["common"], "stages": 3 } ]
     },
@@ -55,12 +55,12 @@
       "tasks": [
         { "name": "Develop Photos", "type": ["long"], "stages": 2 },
         { "name": "Decontaminate", "type": ["short"], "stages": 1 },
-        { "name": "Empty Garbage", "type": ["long"], "stages": 2 },
+        { "name": "Empty Garbage", "type": ["long"], "stages": 2, "part": 1 },
         { "name": "Accept Diverted Power", "type": ["short"], "stages": 2, "part": 2 } ]
     },
     { "name": "Kitchen",
       "tasks": [
-        { "name": "Empty Garbage", "type": ["long"], "stages": 2 },
+        { "name": "Empty Garbage", "type": ["long"], "stages": 2, "part": 1 },
         { "name": "Make Burger", "type": ["short"], "stages": 1 } ]
     },
     { "name": "Showers",
