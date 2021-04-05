@@ -1,15 +1,8 @@
 {
   "Airship" : [
-        "locations": [
-            {
-              "name" : "Electrical",
-              "tasks" : [
-                  "Calibrate Distributor",
-                  "Divert Power",
-                  "Reset Breakers"
-                ]
-            },
-{}
-          ]
-]
+        { name: 'location 1', tasks: [ { name: 'Fix Wires', type: 'common' }, { name: 'Fix Wires2', type: 'short' } ] },
+        { name: 'location 2', tasks: [] },
+        { name: 'location 3', tasks: [] },
+        { name: 'location 4', tasks: [] }
+      ]
 }
