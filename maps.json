@@ -2,15 +2,21 @@
   "Airship" : [
     { "name": "Electrical",
       "tasks": [
-        { "name": "Calibrate Distributor", "type": ["short", "long"] }, 
+        { "name": "Calibrate Distributor", "type": ["short", "long"], "stages": 1 }, 
         { "name": "Divert Power", "type": ["short"], "stages": 2 },
         { "name": "Reset Breakers", "type": ["long"], "stages": 7 } ]
     },
     { "name": "Cockpit",
-      "tasks": []
+      "tasks": [
+        { "name": "Accept Diverted Power", "type": ["short"], "stages": 2 },
+        { "name": "Stabilize Steering", "type": ["short"], "stages": 1 },
+        { "name": "Download Data", "type": ["long"], "stages": 2 } ]
     },
     { "name": "Vault",
-      "tasks": []
+      "tasks": [
+        { "name": "Polish Ruby", "type": ["short"], "stages": 1 },
+        { "name": "Download Data", "type": ["long"], "stages": 2 },
+        { "name": "Dress Mannequin", "type": ["short"], "stages": 1 } ]
     },
     { "name": "Brig",
       "tasks": []
