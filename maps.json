@@ -19,16 +19,21 @@
         { "name": "Dress Mannequin", "type": ["short"], "stages": 1 } ]
     },
     { "name": "Brig",
-      "tasks": []
+      "tasks": [ { "name": "Download Data", "type": ["long"], "stages": 2 } ]
     },
     { "name": "Security",
-      "tasks": []
+      "tasks": [ { "name": "Rewind Tapes", "type": ["long"], "stages": 1 } ]
     },
     { "name": "Medical",
-      "tasks": []
+      "tasks": [
+        { "name": "Download Data", "type": ["long"], "stages": 2 },
+        { "name": "Empty Garbage", "type": ["long"], "stages": 2 } ]
     },
     { "name": "Meeting Room",
-      "tasks": []
+      "tasks": [
+        { "name": "Empty Garbage", "type": ["long"], "stages": 2 },
+        { "name": "Enter Id Code", "type": ["common"], "stages": 1 },
+        { "name": "Fix Wiring", "type": ["common"], "stages": 3 }]
     },
     { "name": "Gap Room",
       "tasks": []
