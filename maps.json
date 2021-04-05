@@ -6,13 +6,61 @@
         { "name": "Divert Power", "type": ["short"], "stages": 2 },
         { "name": "Reset Breakers", "type": ["long"], "stages": 7 }]
     },
-    { "name": "location 2",
+    { "name": "Cockpit",
       "tasks": []
     },
-    { "name": "location 3",
+    { "name": "Vault",
       "tasks": []
     },
-    { "name": "location 4",
+    { "name": "Brig",
+      "tasks": []
+    },
+    { "name": "Security",
+      "tasks": []
+    },
+    { "name": "Medical",
+      "tasks": []
+    },
+    { "name": "Meeting Room",
+      "tasks": []
+    },
+    { "name": "Gap Room",
+      "tasks": []
+    },
+    { "name": "Engine Room",
+      "tasks": []
+    },
+    { "name": "Records",
+      "tasks": []
+    },
+    { "name": "Main Hall",
+      "tasks": []
+    },
+    { "name": "Kitchen",
+      "tasks": []
+    },
+    { "name": "Showers",
+      "tasks": []
+    },
+    { "name": "Viewing Deck",
+      "tasks": []
+    },
+    { "name": "Lounge",
+      "tasks": []
+    },
+    { "name": "Armory",
+      "tasks": []
+    },
+    { "name": "Cargo Bay",
+      "tasks": []
+    },
+    { "name": "Ventilation",
+      "tasks": []
+    },
+    { "name": "Communications",
+      "tasks": []
+    },
+    { "name": "Outside",
       "tasks": []
     }
   ]
