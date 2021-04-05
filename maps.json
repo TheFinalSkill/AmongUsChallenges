@@ -1,6 +1,6 @@
 {
   "Airship" : [
-        "locations": {
+        "locations": [
             {
               "name" : "Electrical",
               "tasks" : [
@@ -8,7 +8,8 @@
                   "Divert Power",
                   "Reset Breakers"
                 ]
-            }
+            },
+{}
           ]
-}
+]
 }
