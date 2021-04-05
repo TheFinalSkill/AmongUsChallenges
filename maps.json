@@ -150,5 +150,96 @@
     { "name": "Upper Engine",
       "tasks" : []
     }
+  ],
+  "MiraHQ" : [
+    { "name": "Launchpad",
+      "tasks" : []
+    },
+    { "name": "MedBay",
+      "tasks" : []
+    },
+    { "name": "Communications",
+      "tasks" : []
+    },
+    { "name": "Locker Room",
+      "tasks" : []
+    },
+    { "name": "Office",
+      "tasks" : []
+    },
+    { "name": "Admin",
+      "tasks" : []
+    },
+    { "name": "Balcony",
+      "tasks" : []
+    },
+    { "name": "Cafeteria",
+      "tasks" : []
+    },
+    { "name": "Decontamination",
+      "tasks" : []
+    },
+    { "name": "Hallway",
+      "tasks" : []
+    },
+    { "name": "Laboratory",
+      "tasks" : []
+    },
+    { "name": "Reactor",
+      "tasks" : []
+    },
+    { "name": "Storage",
+      "tasks" : []
+    },
+    { "name": "Greenhouse",
+      "tasks" : []
+    }
+  ],
+  "Polus" : [
+    { "name": "Dropship",
+      "tasks" : []
+    },
+    { "name": "Electrical",
+      "tasks" : []
+    },
+    { "name": "Outside",
+      "tasks" : []
+    },
+    { "name": "Office",
+      "tasks" : []
+    },
+    { "name": "O2",
+      "tasks" : []
+    },
+    { "name": "Admin",
+      "tasks" : []
+    },
+    { "name": "Boiler Room",
+      "tasks" : []
+    },
+    { "name": "Communications",
+      "tasks" : []
+    },
+    { "name": "Decontamination",
+      "tasks" : []
+    },
+    { "name": "Laboratory",
+      "tasks" : []
+    },
+    { "name": "MedBay",
+      "tasks" : []
+    },
+    { "name": "Security",
+      "tasks" : []
+    },
+    { "name": "Specimen Room",
+      "tasks" : []
+    },
+    { "name": "Storage",
+      "tasks" : []
+    },
+    { "name": "Weapons",
+      "tasks" : []
+    }
   ]
 }
