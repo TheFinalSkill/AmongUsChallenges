@@ -1,8 +1,6 @@
 {
-  "maps" : [
-      {
-        "name": "Airship",
-        "locations": [
+  "Airship" : [
+        "locations": {
             {
               "name" : "Electrical",
               "tasks" : [
@@ -12,11 +10,5 @@
                 ]
             }
           ]
-      },
-      {
-        "name": "The Skeld",
-        "locations": [
-          ]
-      },
-    ]
+}
 }
