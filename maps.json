@@ -106,6 +106,48 @@
   ],
   "TheSkeld" : [
     { "name": "Cafeteria",
+      "tasks" : [
+        { "name": "Download Data", "type": ["short"], "stages": 2, "part": 1 },
+        { "name": "Empty Garbage", "type": ["long"], "stages": 2, "part": 2 },
+        { "name": "Fix Wiring", "type": ["common"], "stages": 3 } ]
+    },
+    { "name": "Weapons",
+      "tasks" : [
+        { "name": "Accept Diverted Power", "type": ["short"], "stages": 2, "part": 2 },
+        { "name": "Clear Asteroids", "type": ["long"], "stages": 20},
+        { "name": "Download Data", "type": ["short"], "stages": 2, "part": 1 } ]
+    },
+    { "name": "Navigation",
+      "tasks" : []
+    },
+    { "name": "O2",
+      "tasks" : []
+    },
+    { "name": "Shields",
+      "tasks" : []
+    },
+    { "name": "Communications",
+      "tasks" : []
+    },
+    { "name": "Storage",
+      "tasks" : []
+    },
+    { "name": "Admin",
+      "tasks" : []
+    },
+    { "name": "Electrical",
+      "tasks" : []
+    },
+    { "name": "Lower Engine",
+      "tasks" : []
+    },
+    { "name": "Security",
+      "tasks" : []
+    },
+    { "name": "Reactor",
+      "tasks" : []
+    },
+    { "name": "Upper Engine",
       "tasks" : []
     }
   ]
