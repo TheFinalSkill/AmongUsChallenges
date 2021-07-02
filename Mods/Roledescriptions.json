@@ -1,19 +1,23 @@
 {
     "Crewmate": {
-        "name": "Crewmate-Rollen",
+        "name": "Crewmate Rollen",
         "roles": [
             {
                 "name": "Mayor",
                 "description": "Ein Crewmate, der mehrere Votes hat. Er hat eine Votebank, welche die Zahl der Votes darstellt. Er kann sich in einem Meeting enthalten, wodurch dieser Vote zur Bank hinzugefügt wird. Er kann (solange noch nicht alle gevoted haben) beliebig viele Votes aus der Bank verwenden."
             },
             {
-                "name": "VORLAGE",
-                "description": "Hier kommt die Beschreibung"
+                "name": "Lovers",
+                "description": "Die Lovers sind zwei Spieler, die miteinander verbunden sind. Zwei Spieler werden zufällig zwischen Crewmitgliedern und Impostern ausgewählt. Sie haben das primäre Ziel, gemeinsam am Leben zu bleiben. Sind beide unter den letzten 3 Spielern, gewinnen sie. Dazu erhalten sie Zugang zu einem privaten Chat, der nur zwischen den Meetings für sie sichtbar ist. Sie können jedoch auch mit ihrem jeweiligen Team gewinnen, weshalb die Lover die Rolle des anderen Lovers nicht kennen."
+            },
+            {
+                "name": "Sheriff",
+                "description": "Der Sheriff ist ein Crewmitglied, das die Impostor mit seinem Kill-Button eliminieren kann. Wenn er jedoch ein Crewmitglied oder einen neutralen Spieler tötet, stirbt er entweder selbst, oder beide."
             }
         ]
     },
     "Neutral": {
-        "name": "Neutrale -Rollen",
+        "name": "Neutrale Rollen",
         "roles": [
             {
                 "name": "Test 1",
