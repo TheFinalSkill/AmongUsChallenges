@@ -1,4 +1,28 @@
 {
-    "Crewmate - Rollen": [],
-    "Neutrale Rollen": []
+    "Crewmate": {
+        "name": "Crewmate-Rollen",
+        "roles": [
+            {
+                "name": "Mayor",
+                "description": "Ein Crewmate, der mehrere Votes hat. Er hat eine Votebank, welche die Zahl der Votes darstellt. Er kann sich in einem Meeting enthalten, wodurch dieser Vote zur Bank hinzugefügt wird. Er kann (solange noch nicht alle gevoted haben) beliebig viele Votes aus der Bank verwenden."
+            },
+            {
+                "name": "VORLAGE",
+                "description": "Hier kommt die Beschreibung"
+            }
+        ]
+    },
+    "Neutral": {
+        "name": "Neutrale -Rollen",
+        "roles": [
+            {
+                "name": "Test 1",
+                "description": "Test 1"
+            },
+            {
+                "name": "VORLAGE",
+                "description": "Hier kommt die Beschreibung"
+            }
+        ]
+    }
 }
