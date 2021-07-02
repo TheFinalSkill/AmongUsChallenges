@@ -26,6 +26,14 @@
             {
                 "name": "Investigator/Ermittler",
                 "description": "Der Ermittler ist ein Crewmitglied, das die Fußabdrücke von Spielern sehen kann. Fußabdrücke bleiben nur eine bestimmte Zeit bestehen."
+            },
+            {
+                "name": "Time Lord",
+                "description": "Der Time Lord ist ein Crewmitglied, das die Zeit zurückdrehen und die Positionen aller Spieler umkehren kann. Wenn  er seine Fähigkeit aktiviert, werden alle Spieler, die während dieser Zeit getötet wurden, wiederbelebt. Nur Bewegungen und Tötungen sind betroffen."
+            },
+            {
+                "name": "Medic",
+                "description": "Der Medic ist ein Crewmitglied, der jedem Spieler einen Schild geben kann, der ihn unsterblich macht, bis der Medic stirbt. Ein geschützter Spieler kann von niemandem als Morphziel ausgewählt, gehackt oder getötet werden, es sei denn durch Selbstmord (Sheriff Fehlschuss). Wenn der Medic eine Leiche meldet, kann er einen Bericht erhalten, der Hinweise auf die Identität des Killers enthält. Ein Bericht kann den Namen des Killers oder den Farbtyp (hell/dunkel) enthalten."
             }
         ]
     },
@@ -42,6 +50,35 @@
     "Modifiers": {
         "name": "Modifizierungen",
         "variant": "info",
-        "roles": []
+        "roles": [
+            {
+                "name": "Torch",
+                "description": "Die Sichtweite dieses Spielers (nur Crewmates) wird nicht reduziert, wenn die Lichter sabotiert werden."
+            },
+            {
+                "name": "Diseased",
+                "description": "Das Töten dieses Spielers (nur Crewmates) verdreifacht die Abklingzeit des Killers."
+            },
+            {
+                "name": "Flash",
+                "description": "Dieser Spieler bewegt sich mit der doppelten Geschwindigkeit eines normalen Spielers."
+            },
+            {
+                "name": "Tiebreaker",
+                "description": "Wenn eine Abstimmung unentschieden ist, entscheidet die Abstimmung dieses Spielers. Wenn er einen anderen Spieler gewählt hat, wird er jedoch selbst gewählt. Wenn der Tiebreaker der Bürgermeister ist, gilt dies für die erste Stimme des Bürgermeisters."
+            },
+            {
+                "name": "Drunk",
+                "description": "Die Steuerung dieses Spielers ist invertiert."
+            },
+            {
+                "name": "Giant",
+                "description": "Der Spieler wird gigantisch groß und besitzt deshalb verringerte Geschwindigkeit."
+            },
+            {
+                "name": "Button Barry",
+                "description": "Dieser Spieler kann von überall auf der Karte ein Meeting einberufen, sogar während einer Sabotage. Er hat die gleiche Anzahl an Meetings wie ein regulärer Spieler."
+            }
+        ]
     }
 }
