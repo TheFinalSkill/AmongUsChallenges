@@ -1,6 +1,7 @@
 {
     "Crewmate": {
         "name": "Crewmate Rollen",
+        "variant": "primary",
         "roles": [
             {
                 "name": "Mayor",
@@ -13,20 +14,34 @@
             {
                 "name": "Sheriff",
                 "description": "Der Sheriff ist ein Crewmitglied, das die Impostor mit seinem Kill-Button eliminieren kann. Wenn er jedoch ein Crewmitglied oder einen neutralen Spieler tötet, stirbt er entweder selbst, oder beide."
+            },
+            {
+                "name": "Engineer/Igenieur",
+                "description": "Der Engineer ist ein Crewmitglied, das Sabotage von überall auf der Karte beheben kann. Er kann Vents verwenden, um sich schneller durch die Karte zu bewegen."
+            },
+            {
+                "name": "Swapper",
+                "description": "Der Swapper ist ein Crewmitglied, das während eines Meetings die Stimmen für 2 Spieler tauschen kann. Alle Stimmen für den ersten Spieler werden stattdessen für den zweiten Spieler gezählt und umgekehrt."
+            },
+            {
+                "name": "Investigator/Ermittler",
+                "description": "Der Ermittler ist ein Crewmitglied, das die Fußabdrücke von Spielern sehen kann. Fußabdrücke bleiben nur eine bestimmte Zeit bestehen."
             }
         ]
     },
     "Neutral": {
         "name": "Neutrale Rollen",
-        "roles": [
-            {
-                "name": "Test 1",
-                "description": "Test 1"
-            },
-            {
-                "name": "VORLAGE",
-                "description": "Hier kommt die Beschreibung"
-            }
-        ]
+        "variant": "warning",
+        "roles": []
+    },
+    "Impostor": {
+        "name": "Impostor Rollen",
+        "variant": "danger",
+        "roles": []
+    },
+    "Modifiers": {
+        "name": "Modifizierungen",
+        "variant": "info",
+        "roles": []
     }
 }
