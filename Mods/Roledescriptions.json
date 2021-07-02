@@ -34,18 +34,92 @@
             {
                 "name": "Medic",
                 "description": "Der Medic ist ein Crewmitglied, der jedem Spieler einen Schild geben kann, der ihn unsterblich macht, bis der Medic stirbt. Ein geschützter Spieler kann von niemandem als Morphziel ausgewählt, gehackt oder getötet werden, es sei denn durch Selbstmord (Sheriff Fehlschuss). Wenn der Medic eine Leiche meldet, kann er einen Bericht erhalten, der Hinweise auf die Identität des Killers enthält. Ein Bericht kann den Namen des Killers oder den Farbtyp (hell/dunkel) enthalten."
+            },
+            {
+                "name": "Seer/Seher",
+                "description": "Der Seher ist ein Crewmitglied, das die Rollen anderer Spieler enthüllen kann. Je nach Einstellungen kann der Seher herausfinden, ob eine Rolle gut, böse oder neutral ist, oder die konkrete Rolle direkt. Der Name eines Spielers ändert seine Farbe in Abhängigkeit seines Teams oder seiner Rolle. Wenn der Seher jemanden untersucht, ändert sich der Name des Sehers, um diesen Spieler zu informieren, wer der Seher ist. Je nach Einstellungen sehen das nur die Crewmates oder auch die Imposter"
+            },
+            {
+                "name": "Spy/Spion",
+                "description": "Der Spion ist ein Crewmitglied, das mehr Informationen am Admin-Tisch und den Vitals bekommt. Am Admin-Tisch kann der Spion die Farben jeder Person auf der Karte sehen. Auf Vitals kann der Spion sehen, wie lange getötete Spieler schon tot sind."
+            },
+            {
+                "name": "Snitch/Petze",
+                "description": "Die Petze ist ein Crewmitglied, das Pfeile bekommen kann, die auf die Imposter zeigen, sobald alle seine Aufgaben erledigt sind. Die Namen der Imposter werden ebenfalls rot auf seinem Bildschirm angezeigt. Basierend auf den Spieleinstellungen weiß die Petze möglicherweise nicht, wer er ist, bis er nur noch eine Aufgabe hat.Wenn er jedoch nur noch eine einzige Aufgabe hat, erhalten die Imposter einen Pfeil, der auf die Petze zeigt."
+            },
+            {
+                "name": "Altruist",
+                "description": "Der Altruist ist ein Crewmitglied, das tote Spieler wiederbeleben kann. Wenn der Altruist eine Leiche findet, kann er seinen Wiederbelebungsknopf drücken und sich für die Wiederbelebung eines anderen Spielers opfern. Sobald er es aktiviert, verschwindet die Leiche, sodass nur die Leiche des Altruisten am Tatort bleibt. Nach einer bestimmten Zeit wird der Spieler wiederbelebt, sollte die Wiederbelebung nicht unterbrochen werden."
             }
         ]
     },
     "Neutral": {
         "name": "Neutrale Rollen",
         "variant": "warning",
-        "roles": []
+        "roles": [
+            {
+                "name": "Jester",
+                "description": "Wenn er nach einem Meeting abgewählt wird, endet das Spiel und er gewinnt. Der Narr gewinnt jedoch nicht, wenn die Crewmitglieder, Imposter oder eine andere neutrale Rolle gewinnt."
+            },
+            {
+                "name": "Shifter",
+                "description": "Der Shifter hat keine Aufgaben und ist im wesentlichen rollenlos. Er kann jedoch die Rollen mit anderen Spielern tauschen. Der Austausch von Rollen mit einer benutzerdefinierten Rolle gibt dem Shifter diese Rolle und die dazugehörigen Aufgaben und macht den anderen Spieler zu einem Crewmate. Beim Rollentausch mit einem Crewmitglied werden Aufgaben getauscht. Der Rollentausch mit einem Impostor schlägt fehl und tötet den Shifter."
+            },
+            {
+                "name": "The Glitch",
+                "description": "Das Ziel des Glitch ist es, alle zu töten und der letzte Überlebende zu sein. Der Glitch kann Spieler hacken, was dazu führt, dass sie keine Leichen melden und keine Aufgaben ausführen können. Hacking hindert den gehackten Spieler daran, etwas anderes zu tun, als auf der Karte herumzulaufen. Der Glitch kann jemanden nachahmen, was dazu führt, dass er genau wie die andere Person aussieht."
+            },
+            {
+                "name": "Executioner",
+                "description": "Das Ziel des Henkers ist es, einen zu Beginn eines Spiels angegebenen Spieler abzuwählen. Wenn dieser Spieler abgewählt wird, gewinnt er das Spiel. Sollte das Ziel anderweitig sterben, kann der Henker je nach Einstellung selbst zum Jester werden."
+            },
+            {
+                "name": "Arsonist",
+                "description": "Der Brandstifter hat die Fähigkeit, andere Spieler mit Benzin zu übergießen. Sobald er alle verbleibenden Spieler übergossen hat, kann er sie alle gleichzeitig entzünden. Wenn er alle Spieler entzündet hat, gewinnt er das Spiel."
+            },
+            {
+                "name": "Phantom",
+                "description": "Der Spieler wird nach seinem Tod halb unsichtbar und muss alle Aufgaben erledigen, ohne dabei erwischt zu werden."
+            }
+        ]
     },
     "Impostor": {
         "name": "Impostor Rollen",
         "variant": "danger",
-        "roles": []
+        "roles": [
+            {
+                "name": "Janitor",
+                "description": "Der Hausmeister ist ein Impostor, der Leichen aufräumen kann. Sowohl die Kill-, als auch Clean-Fähigkeiten haben eine gemeinsame Abklingzeit, was bedeutet, dass er auswählen muss, welche er verwenden möchten."
+            },
+            {
+                "name": "Morphling",
+                "description": "Der Morphling ist ein Impostor, der sich in einen anderen Spieler verwandeln kann. Zu Beginn des Spiels und nach jedem Meeting kann er jemanden zum Samplen auswählen. Er kann sich dann jederzeit für eine begrenzte Zeit in diese Person verwandeln. Um die Rolle auszubalancieren, kann er nicht venten."
+            },
+            {
+                "name": "Camouflager",
+                "description": "Der Camouflager ist ein Impostor, der jeden in farblose Charaktere verwandeln kann. Alle werden dann für eine bestimmte Zeit grau, ihre Namen verschwinden und sie werden unkenntlich."
+            },
+            {
+                "name": "Miner",
+                "description": "Der Miner ist ein Impostor, der neue Vents schaffen kann. Diese Vents sind nur untereinander verbunden in der Reihenfolge, in der sie erschaffen werden."
+            },
+            {
+                "name": "Swooper",
+                "description": "Der Swooper ist ein Impostor, der vorübergehend unsichtbar werden kann. Um die Rolle auszubalancieren, kann er nicht venten."
+            },
+            {
+                "name": "Assassin",
+                "description": "Der Assassine ist ein Impostor, der während Meetings töten kann, indem er die Rolle von Nicht-Impostern errät. Wenn er falsch geraten hat, stirbt er stattdessen."
+            },
+            {
+                "name": "Undertaker",
+                "description": "Der Undertaker ist ein Impostor, der Leichen ziehen und ablegen kann."
+            },
+            {
+                "name": "Underdog",
+                "description": "Der Underdog ist ein Impostor mit einer verlängerten Abklingzeit für Kills. Sobald der Partner stirbt, wird die Abklingzeit verkürzt."
+            }
+        ]
     },
     "Modifiers": {
         "name": "Modifizierungen",
