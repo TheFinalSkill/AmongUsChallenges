@@ -16,7 +16,7 @@
                 "description": "Der Sheriff ist ein Crewmitglied, das die Impostor mit seinem Kill-Button eliminieren kann. Wenn er jedoch ein Crewmitglied oder einen neutralen Spieler tötet, stirbt er entweder selbst, oder beide."
             },
             {
-                "name": "Engineer/Igenieur",
+                "name": "Engineer",
                 "description": "Der Engineer ist ein Crewmitglied, das Sabotage von überall auf der Karte beheben kann. Er kann Vents verwenden, um sich schneller durch die Karte zu bewegen."
             },
             {
