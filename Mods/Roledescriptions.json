@@ -55,6 +55,7 @@
     },
     "Neutral": {
         "name": "Neutrale Rollen",
+        "info": "Spieler mit neutralen Rollen gehören keinem der anderen Teams an und haben eigene Siegbedingungen.",
         "variant": "warning",
         "roles": [
             {
@@ -147,7 +148,7 @@
             },
             {
                 "name": "Giant",
-                "description": "Der Spieler wird gigantisch groß und besitzt deshalb verringerte Geschwindigkeit."
+                "description": "Der Spieler wird gigantisch groß und ist deshalb langsamer."
             },
             {
                 "name": "Button Barry",
