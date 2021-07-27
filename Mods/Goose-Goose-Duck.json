@@ -8,25 +8,83 @@
                 "description": "Work together with other Ducks to disguise yourselves as Geese and eliminate them."
             },
             {
-                "name": "Geese (Crewmate)",
+                "name": "Goose (Crewmate)",
                 "description": "Complete tasks to finish a round before the Ducks eliminate your fellow geese."
             }
         ]
     },
     "Special-Goose": {
-        "name": "Besondere Innocents",
-        "info": "Spieler mit neutralen Rollen gehören keinem der anderen Teams an und haben eigene Siegbedingungen.",
+        "name": "Special Goose Roles (Crewmate)",
         "variant": "warning",
-        "roles": []
+        "roles": [
+            {
+                "name": "Bounty Goose",
+                "description": "Provides rewards if this goose is eliminated first."
+            },
+            {
+                "name": "Mechanic Goose",
+                "description": "The only type of Goose that can use vents."
+            },
+            {
+                "name": "Vigilante Goose",
+                "description": "The only type of Goose that can execute other players."
+            },
+            {
+                "name": "Technician Goose",
+                "description": "The only type of goose that can detect sabotages."
+            },
+            {
+                "name": "Medium Goose",
+                "description": "A Goose that can see the ghosts of eliminated Geese."
+            },
+            {
+                "name": "Canadian Goose",
+                "description": "Anyone that kills a Canadian Goose automatically self-reports."
+            },
+            {
+                "name": "Sheriff Goose",
+                "description": "A Goose that can kill anyone except Geese."
+            },
+            {
+                "name": "Lover Goose",
+                "description": "Has a bond in life with another bird."
+            }
+        ]
     },
     "Special-Duck": {
-        "name": "Besondere Impostors",
+        "name": "Special Duck Roles (Impostor)",
         "variant": "danger",
-        "roles": []
+        "roles": [
+            {
+                "name": "Cannibal Duck",
+                "description": "A Duck that can eat corpses."
+            },
+            {
+                "name": "Silencer Duck",
+                "description": "A Duck that can mute Geese."
+            },
+            {
+                "name": "Morphling Duck",
+                "description": "A Duck that can impersonate other players."
+            },
+            {
+                "name": "Lover Duck",
+                "description": "Has a bond in life with another bird."
+            }
+        ]
     },
     "Alternative-Birds": {
-        "name": "Alternative (neutrale) Rollen",
+        "name": "Alternative Bird Roles (neutral)",
         "variant": "info",
-        "roles": []
+        "roles": [
+            {
+                "name": "Vulture",
+                "description": "Eat corpses of murdered geese to win."
+            },
+            {
+                "name": "Dodo Bird",
+                "description": "Act suspicious or useless enough to make other players vote you out to win."
+            }
+        ]
     }
 }
