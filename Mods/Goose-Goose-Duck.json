@@ -1,0 +1,32 @@
+{
+    "Basic": {
+        "name": "Basic Rollen",
+        "variant": "primary",
+        "roles": [
+            {
+                "name": "Duck (Impostor)",
+                "description": "Work together with other Ducks to disguise yourselves as Geese and eliminate them."
+            },
+            {
+                "name": "Geese (Crewmate)",
+                "description": "Complete tasks to finish a round before the Ducks eliminate your fellow geese."
+            }
+        ]
+    },
+    "Special-Goose": {
+        "name": "Besondere Innocents",
+        "info": "Spieler mit neutralen Rollen gehören keinem der anderen Teams an und haben eigene Siegbedingungen.",
+        "variant": "warning",
+        "roles": []
+    },
+    "Special-Duck": {
+        "name": "Besondere Impostors",
+        "variant": "danger",
+        "roles": []
+    },
+    "Alternative-Birds": {
+        "name": "Alternative (neutrale) Rollen",
+        "variant": "info",
+        "roles": []
+    }
+}
